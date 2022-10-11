@@ -66,11 +66,11 @@ let x = 10; // x est la différence de a et b
 
 ### Opérateurs
 
-`fichier referent: operateurs.js`
+`fichier référent: operateurs.js`
 
 ### Structure conditionnelles
 
-
+`fichier référent: conditions.js`
 
 ### Les boucles
 
