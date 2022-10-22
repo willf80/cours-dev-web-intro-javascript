@@ -27,8 +27,9 @@
     alert("Erreur : l'âge ne peut pas être négatif");
   }
 
-
+  // possible d'écrire un if sans le else
   if (age) {
+    // instruction ici...
   }
 
 })();

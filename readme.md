@@ -66,16 +66,39 @@ let x = 10; // x est la différence de a et b
 
 ### Opérateurs
 
-`fichier référent: operateurs.js`
+`fichier référent: js/operateurs.js`
 
 ### Structure conditionnelles
 
-`fichier référent: conditions.js`
+Les structures conditionnelles sont des éléments du code qui permettent de tester si une expression est vraie ou non et d'exécuter des instructions différentes selon le résultat. La structure conditionnelle utilisée la plus fréquemment est `if ... else`
+
+```
+fichier référent: js/conditions.js
+```
 
 ### Les boucles
+```
+fichier référent: js/boucles.js
+```
 
 ### Fonctions
 
+Les fonctions sont un moyen de compacter des fonctionnalités en vue de leur réutilisation. Quand vous avez besoin de la procédure, vous pouvez appeler une fonction, par son nom, au lieu de ré‑écrire la totalité du code chaque fois. Nous avons déjà utilisé des fonctions plus haut, par exemple :
+
+```js
+let monTitre = document.querySelector('h1');
+```
+
+```js
+alert('Je suis majeur');
+```
+
+```
+fichier référent: js/fonctions.js
+```
+
 ### Evenements
+
+
 
 ## Exercice : Calculatrice

@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <title>Cours 4 : JavaScript</title>
     <!-- <script src="nomdufichier.js"></script> -->
-    
+    <style>
+        .ecran {
+            width: 140px; 
+            background-color: greenyellow; 
+            color: darkgreen; 
+            padding: 8px;
+            margin-bottom: 16px;
+        }
+    </style>
 </head>
 <body>
     
     <h1></h1>
     <h2>Mon sous titre</h2>
 
+    <h3 id="resultat" class="ecran">--</h3>
+    <button id="btnPlus">Plus +1</button>
+    <button id="btnMoins">Moins -1</button>
+    
     <script>
         let monTitre = document.querySelector('h1'); // em memoire
         monTitre.textContent = 'Bonjour le monde !';
     </script>
     <script src="js/sous-titre.js"></script>
-    <script src="js/variables.js"></script>
+    <!-- <script src="js/variables.js"></script>
     <script src="js/operateurs.js"></script>
-    <script src="js/conditions.js"></script>
+    <script src="js/conditions.js"></script> -->
+    <!-- <script src="js/boucles.js"></script> -->
+    <!-- <script src="js/fonctions.js"></script> -->
+    <script src="js/evenements.js"></script>
 </body>
 </html>
