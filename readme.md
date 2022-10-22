@@ -46,7 +46,7 @@ maConstante = 'x'; // Erreur
 ```
 ### Les commentaires
 
-2 manières de faire de commentaires
+Il exite 2 types commentaires :
 
 - Commentaires sur plusieurs lignes
 
@@ -57,7 +57,7 @@ let x = 10;
 */
 ```
 
-- Commentaires sur une ligne
+- Commentaire sur une ligne
 
 ```js
 // Ceci est un commentaire
@@ -102,3 +102,10 @@ fichier référent: js/fonctions.js
 
 
 ## Exercice : Calculatrice
+
+- Utiliser les fonctions dans les conditions
+- Afficher le message d'erreur <<Impossible de diviser par 0>> quand on divise par 0
+- Eviter que l'utilisateur saisie des caractères autres que les caractères numérique (0 à 9)
+
+## Correction suite calculatrice
+## Installation des environnements Angular

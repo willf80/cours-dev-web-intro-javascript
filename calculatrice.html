@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Exercice - Faire une calculatrice : JavaScript</title>
     <!-- <script src="nomdufichier.js"></script> -->
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
     <style>
         .ecran {
             width: 140px; 
@@ -11,6 +13,7 @@
             color: darkgreen; 
             padding: 8px;
             margin-bottom: 16px;
+            font-family: 'Orbitron'
         }
     </style>
 </head>
@@ -18,17 +21,17 @@
     <h1>Ma calculatrice</h1>
 
     <div style="margin-top: 24px;" >
-        <div id="resultatCalcul" class="ecran">--</div>
+        <h2 id="ecran" class="ecran">--</h2>
 
-        <input />
-        <input />
-        <select>
-            <option>Addition</option>
-            <option>Soustraction</option>
-            <option>Multiplication</option>
-            <option>Division</option>
+        <input id="nombre1" />
+        <input id="nombre2" />
+        <select id="signe">
+            <option value="+">Addition</option>
+            <option value="-">Soustraction</option>
+            <option value="*">Multiplication</option>
+            <option value="/">Division</option>
         </select>
-        <button>Calculer</button>
+        <button id="btnCalculer">Calculer</button>
     </div>
     
     <script src="js/calculatrice.js"></script>
